@@ -23,5 +23,17 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+             <repository>
+                      <id>nexus</id>
+                      <name>Release Repo</name>
+                      <url>http://34.125.31.111:8081/repository/first-release/</url>
+             </repository>
+              <snapshotRepository>
+                      <id>nexus</id>
+                      <name>Snapshot Repo</name>
+                      <url>http://34.125.31.111:8081/repository/first-snapshot/</url>
+             </snapshotRepository>
+    </distributionManagement>
 </project>
 
